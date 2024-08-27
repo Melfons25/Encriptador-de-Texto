@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Cifrador y Descifrador de Texto</h1>
+            <label for="ingresartexto">Ingresa el texto a cifrar o descifrar:</label><br>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingresa el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion">Sólo se permiten letras minúsculas y sin acentos.</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" type="button" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" type="button" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="0" rows="10"></textarea>
+            <div>
+                <button class="btn-copiar">Copiar al Portapapeles</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Melanny Fonseca CR</p>
+    </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
